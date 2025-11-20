@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to bottom, #d75353, #ffffff);
+    padding: 20px;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+header img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.menu {
+    background-color: #bb5656;
+    color: white;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.postres {
+    background-color: #85e685;
+    color: white;
+    padding: 20px;
+}
+
+.postres ul {
+    list-style: none;
+    padding: 0;
+}
+
+.galeria {
+    margin: 40px 0;
+}
+
+.galeria h2 {
+    color: rgb(105, 214, 105);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.galeria .fotos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 80px;
+    height: auto;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ce3d3d;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+footer p {
+    magin: 0;
+    font-weight: bold;
+}
